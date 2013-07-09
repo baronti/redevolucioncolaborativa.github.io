@@ -4,7 +4,7 @@ source:			.
 destination:	./_site
 layouts:		./_layouts
 
-permalink:	none
+permalink:	/:category/:title.html
 
 exclude: ['README.md']
 
