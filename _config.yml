@@ -1,0 +1,13 @@
+# Config
+
+auto: true
+source: .
+destination: ./_site
+layouts: ./_layouts
+
+permalink:	none
+
+exclude: ['README.md']
+
+timezone: 'America/Santiago'
+
