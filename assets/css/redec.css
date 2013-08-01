@@ -1,0 +1,20 @@
+body {
+  background: #fff;
+	font-family:Lato, sans-serif;
+	text-align:center;
+}
+
+div#bg {
+	position: absolute;
+	z-index: -1;
+	top: 500px;
+	left: 300px;
+}
+
+div#proyectos, div#areas, div#people, div#ideologia, div#conocimiento {
+	margin-top: 500px;
+}
+
+h1 {
+	font-size: 85px;
+}
