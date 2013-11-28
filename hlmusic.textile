@@ -1,7 +1,0 @@
----
-title: Human Liberation Music
-layout: project
-category: music
----
-
-Create lyrics related to human liberation and evolution. Create music using those lyrics. Share.

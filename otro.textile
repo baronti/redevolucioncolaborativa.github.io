@@ -1,6 +1,0 @@
----
-title: Otro
-layout: project
----
-
-Prueba de ejemplo 3
