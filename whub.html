@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <title>Red de Evoluci&oacute;n Colaborativa - Whub</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/redec.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css' />
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#menu-div">
+	  
+  	<!-- ========== Menu ========== -->
+	<div class="container">
+		<ul id="gn-menu" class="gn-menu-main">
+			<li class="gn-trigger">
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller" id="menu-div">
+						<ul class="gn-menu">
+							<li class="gn-redec"><img src="assets/img/redec-small.png" alt="Logo" /><br />Red de Evoluci&oacute;n Colaborativa</li>
+							<li id="link-redec"><a href="index.html#redec" class="gn-icon gn-icon-earth smoothScroll">RedEC</a></li>
+							<li id="link-proyectos"><a href="index.html#proyectos" class="gn-icon gn-icon-lab smoothScroll">Proyectos</a></li>
+							<li id="link-plataformas"><a href="index.html#plataformas" class="gn-icon gn-icon-cog smoothScroll">Plataforma de trabajo</a></li>
+							<li id="link-difusion"><a href="index.html#difusion" class="gn-icon gn-icon-article smoothScroll">Centro de difusi&oacute;n</a></li>
+							<li id="link-ideologia" class="active"><a href="index.html#ideologia" class="gn-icon gn-icon-article smoothScroll">Conoce</a></li>
+							<li id="link-lared"><a href="index.html#lared" class="gn-icon gn-icon-home smoothScroll">La Red</a></li>
+						</ul>
+					</div><!-- /gn-scroller -->
+				</nav>
+			</li>
+			<li>&nbsp;</li>
+		</ul>
+	</div><!-- /container -->
+		
+	<!-- Proyectos -->
+	<section id="proyectos" name="proyectos"></section>
+	<div id="proyectos-div" class="scroll" data-src="proyectos">
+		<div class="container proyectos">
+			<ol class="breadcrumb">
+				<li><img src="assets/img/redec-tiny.png" /></li>
+				<li><a href="index.html#proyectos">Proyectos</a></li>
+				<li class="active">Whub</li>
+			</ol>
+			<div class="col-lg-12 project-desc">
+				<div class="project-pic line-yellow" data-src="whub-big"></div>
+				<img src="assets/img/hex-yellow.png" alt="" class="hex-small" />
+				<h2>Whub</h2>
+				<ul class="nav nav-tabs nav-justified">
+					<li><a href="#desc" data-toggle="tab">Descripci&oacute;n</a></li>
+					<li><a href="#tech" data-toggle="tab">Aspectos t&eacute;cnicos</a></li>
+					<li><a href="#doc" data-toggle="tab">Documentos</a></li>
+					<li><a href="#ref" data-toggle="tab">Referencias</a></li>
+					<li><a href="#coll" data-toggle="tab">Colabora</a></li>
+				</ul>
+				
+				<div class="tab-content justified">
+					<div id="desc" class="tab-pane active fade in">
+						<h4>Descripci&oacute;n</h4>
+						Whub es una plataforma enfocada al desarrollo colaborativo, abierto y libre de sitios web. 
+						Para ello se replica el modelo de desarrollo colaborativo de software, adem&aacute;s de una 
+						interfaz web que permite abstraer los aspectos t&eacute;cnicos y promover la participaci&oacute;n 
+						de personas sin conocimientos en el &aacute;rea de desarrollo. El flujo de trabajo es el siguiente:
+						<br /><br />
+						<ul>
+							<li>Una persona crea un proyecto de p&aacute;gina web, el cu&aacute;l ser&aacute; replicado y 
+							modificado por todos los colaboradores. Quien crea el proyecto en primera instancia es el autor.</li>
+							<br />
+							<li>Una vez creado el proyecto, el autor puede invitar a m&aacute;s personas a pertenecer al grupo 
+							de autores. Todos los que pertenezcan a este grupo podr&aacute;n aprobar los aportes de los 
+							dem&aacute;s colaboradores.</li>
+							<br />
+							<li>Cualquier persona puede aportar al proyecto en tres simples pasos:
+
+								<ol>
+									<li>Crear copia local del proyecto.</li>
+									<li>Realizar cambios (interfaz para escribir documentos).</li>
+									<li>Enviar cambios (sujetos a aprobaci&oacute;n).</li>
+								</ol>
+							</li>
+							<br />
+							<li>Cuando un colaborador env&iacute;a cambios los autores son notificados. Cualquier autor 
+							puede ver los cambios propuestos y aprobarlos/rechazarlos, incluyendo conflictos (solapamiento) 
+							entre distintos aportes.</li>	
+						</ul>
+						<br />
+						La principal diferencia de Whub en relaci&oacute;n con el resto de herramientas para crear sitios web es el 
+						paradigma bajo el cual funciona, el paradigma peer-to-peer (p2p) de producci&oacute;n colaborativa.
+					</div>
+
+					<div id="tech" class="tab-pane fade">
+						<h4>Aspectos t&eacute;cnicos</h4>
+						<p>
+							Para el desarrollo de Whub se utilizar&aacute; PHP en el back-end y Bootstrap (v3) en el front-end. Como soporte
+							para la producci&oacute;n colaborativa se utiliza GitHub, espec&iacute;ficamente la plataforma GitHub Pages. 
+							Se espera que un futuro	se pueda utilizar Whub con cualquier servidor que corra git, incluso servidores propios, de manera de crear 
+							nodos aut&oacute;nomos de producci&oacute;n de sitios. Gracias al soporte proporcionado por GitHub Pages ser&aacute; posible imitar el comportamiento de un
+							blog, con posts categorizados por fecha y autor, sin necesidad de usar base de datos.
+						</p>
+					</div>
+					
+					<div id="doc" class="tab-pane fade">
+						<h4>Documentos</h4>
+						A&uacute;n no hay material disponible.
+					</div>
+					
+					<div id="ref" class="tab-pane fade">
+						<h4>Referencias</h4>
+						<ul>
+							<li><a href="http://www.penflip.com">Penflip</a>, sitio de edici&oacute;n colaborativa de textos.</li>
+							<li><a href="http://www.authorea.com/">Authorea</a>, sitio de edici&oacute;n colaborativa de textos.</li>
+							<li><a href="http://www.draftin.com/">Draft</a>, sitio de edici&oacute;n colaborativa de textos.</li>
+							<li><a href="http://pages.github.com">Github Pages</a>, plataforma de GitHub para hospedar sitios web.</li>
+						</ul>
+					</div>
+					
+					<div id="coll" class="tab-pane fade">
+						<h4>Colabora</h4>
+						Actualmente el proyecto se encuentra en fase de <strong>modelamiento</strong>. Por el momento necesitamos gente
+						que maneje al menos uno de los siguientes puntos:
+						<br /><br />
+						<ul>
+							<li>Programaci&oacute;n medio-avanzada en PHP.</li>
+							<li>Conocimiento de la API de GitHub.</li> 
+							<li>Bootstrap v3</li>
+							<li>Jekyll</li>
+						</ul>
+						<br />
+						Si est&aacute;s interesada/o, puedes unirte a la <a href="#">plataforma de colaboraci&oacute;n</a> (pronto)
+						o enviar un correo a ilv @ riseup.net (sin espacios).
+					</div>
+				</div> <!-- /tab-content -->
+			</div>
+		</div><!-- /container -->
+	</div>
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="assets/js/html5shiv.js"></script>
+      <script type="text/javascript" src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/classie.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+	<script type="text/javascript" src="assets/js/gnmenu.js"></script>
+	<script type="text/javascript" src="assets/js/redec.js"></script>
+  </body>
+</html>
