@@ -1,9 +1,0 @@
----
-title: Prueba
-layout: project
-category: energia
----
-
-.h2 Proyecto de ejemplo I
-
-Hola.

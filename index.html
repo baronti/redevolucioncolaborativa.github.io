@@ -1,16 +1,426 @@
----
-layout: homepage
-title: Redec
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 
+    <title>Red de Evoluci&oacute;n Colaborativa</title>
 
-<p>Proyectos de prueba: 
-<ul>	
-	<li><a href="/prueba.html">Ejemplo 1</a></li>
-	<li><a href="/ladrillo.html">Ejemplo 2</a></li>
-        <li><a href="/otro.html">Ejemplo 3</a></li>
-        <li><a href="/miproyecto.html">Mi proyecto</a></li>
-        <li><a href="/hlmusic.html">Proyecto de Pablo</a></li>
-        <li><a href="/victor.html">Proyecto de Victor</a></li>
- </ul>
-</p>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/redec.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css' />
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#menu-div">
+	  
+  	<!-- ========== Menu ========== -->
+	<div class="container">
+		<ul id="gn-menu" class="gn-menu-main">
+			<li class="gn-trigger">
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller" id="menu-div">
+						<ul class="gn-menu">
+							<li class="gn-redec"><img src="assets/img/redec-small.png" alt="Logo" /><br />Red de Evoluci&oacute;n Colaborativa</li>
+							<li id="link-redec"><a href="#redec" class="gn-icon gn-icon-earth smoothScroll">RedEC</a></li>
+							<li id="link-proyectos"><a href="#proyectos" class="gn-icon gn-icon-lab smoothScroll">Proyectos</a></li>
+							<li id="link-plataformas"><a href="#plataformas" class="gn-icon gn-icon-cog smoothScroll">Plataforma de trabajo</a></li>
+							<li id="link-difusion"><a href="#difusion" class="gn-icon gn-icon-article smoothScroll">Centro de difusi&oacute;n</a></li>
+							<li id="link-ideologia"><a href="#ideologia" class="gn-icon gn-icon-article smoothScroll">Conoce</a></li>
+							<li id="link-lared" class="active"><a href="#lared" class="gn-icon gn-icon-home smoothScroll">La Red</a></li>
+						</ul>
+					</div><!-- /gn-scroller -->
+				</nav>
+			</li>
+			<li>&nbsp;</li>
+		</ul>
+	</div><!-- /container -->
+		
+	
+	<!-- ========== RedEC ========== -->
+	<section id="redec" name="redec"></section>
+	<div id="redec-div" class="scroll" data-src="redec">
+		<div id="redec-wrap">
+			<div class="container">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<img src="assets/img/logo.png">
+					<h1>Red de Evoluci&oacute;n Colaborativa</h1>
+					<h3>La revoluci&oacute;n es colaborativa</h3>
+				</div>
+				<div class="col-lg-2">
+				</div>
+			</div>
+		</div><!-- /redec-wrap -->
+	</div>
+		
+	<!-- Proyectos -->
+	<section id="proyectos" name="proyectos"></section>
+	<div id="proyectos-div" class="scroll" data-src="proyectos">
+		<div class="container proyectos">
+			<h2>Proyectos destacados</h2>
+			<hr>
+			<div class="col-lg-4 project-line">
+				<div class="project-pic line-green" data-src="aldea"></div>
+				<img src="assets/img/hex-green.png" alt="" class="hex-small" />
+				<h4>Aldea</h4>
+				<p class="justified">La aldea pretende ser un espacio físico en el cual podamos construir modelos 
+				de organización productiva, social y política, orientados a transformar las estructuras del 
+				actual sistema.</p>
+				<a href="#" data-toggle="tooltip" title="Pronto" class="btn btn-large btn-success">M&aacute;s informaci&oacute;n</a><br />
+			</div>
+			
+			<div class="col-lg-4 project-line">
+				<div class="project-pic line-red" data-src="liberator"></div>
+				<img src="assets/img/hex-red.png" alt="" class="hex-small" />
+				<h4>CEB Liberator Press</h4>
+				<p class="justified">La "liberator" es una maquina capaz de fabricar ladrillos de tierra comprimida, desarrollada por Open Source Ecology, 
+				que actualmente est&aacute; siendo replicada por miembros de RedEC.</p>
+				<a href="#" data-toggle="tooltip" title="Pronto" class="btn btn-large btn-danger">M&aacute;s informaci&oacute;n</a><br />
+			</div>
+
+			<div class="col-lg-4 project-line">
+				<div class="project-pic line-yellow" data-src="whub"></div>
+				<img src="assets/img/hex-yellow.png" alt="" class="hex-small" />
+				<h4>Whub</h4>
+				<p class="justified">Whub es un sistema de gesti&oacute;n de contenidos web enfocado a la producci&oacute;n y 
+				administraci&oacute;n colaborativa de sitios web, inspirados en el modelo de desarrollo colaborativo de software.</p>
+				<a href="#" data-toggle="tooltip" title="Pronto" class="btn btn-large btn-warning">M&aacute;s informaci&oacute;n</a><br />
+			</div>
+		</div><!-- /container -->
+	</div>
+	
+	<!-- Areas -->
+	<section id="plataformas" name="plataformas"></section>
+	<div id="plataformas-div" class="scroll" data-src="plataformas">
+		<div class="container plataformas">
+			<h2>Plataforma de trabajo</h2>
+			<hr>
+			<br /><br />
+			<div class="col-lg-1">&nbsp;</div>
+			<div class="col-lg-5">
+				<br /><br /><br /><br />
+				<div class="hex hex-green">		
+					<div class="inner">
+						<h3>Praxis</h3>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-yellow">		
+					<div class="inner">
+						<h3>Estudio</h3>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+
+				<div class="hex hex-red hex-gap">		
+					<div class="inner">
+						<h3>Pol&iacute;tica</h3>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				
+				
+			</div><!-- /col-lg-9 -->
+			<div class="col-lg-5">
+				<p>
+					<h3>Centro de praxis</h3>
+					Espacio de implementación de proyectos tecnol&oacute;gicos, productivos y 
+					educativos que fomenten el libre conocimiento, la producci&oacute;n colaborativa,
+					aut&oacute;noma	y libre de explotaci&oacute;n, y el empoderamiento tecnol&oacute;gico.
+				</p>
+				<p>
+					<h3>Centro de estudio</h3>
+					Espacio de elaboración de estudios y conocimiento que permitan generar 
+					proyectos colectivos y políticas públicas para la transición hacia una 
+					sociedad del pro común en nuestro espacio local (Chile).
+				</p>
+				<p>
+					<h3>Centro pol&iacute;tico</h3>
+					Espacio de generaci&oacute;n de instancias para la toma de decisiones, de interacci&oacute;n 
+					con la comunidad externa y de relaciones públicas. 
+				</p>
+			<div class="col-lg-1">&nbsp;</div>
+			
+		</div><!-- /container -->
+	</div>
+	
+	
+	<!-- Areas -->
+	<section id="difusion" name="difusion"></section>
+	<div id="difusion-div" class="scroll" data-src="difusion">
+		<div class="container areas">
+			<h2>Centro de difusi&oacute;n</h2>
+			<hr>
+			<br /><br />
+			<div class="col-lg-1">&nbsp;</div>
+			<div class="col-lg-9">
+				<div class="hex hex-yellow hex-gap">		
+					<div class="inner">
+						<br /><h4>Econom&iacute;a</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+
+				<div class="hex hex-blue">		
+					<div class="inner">
+						<br /><h4>Internet</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				<div class="hex hex-blue">		
+					<div class="inner">
+						<br /><h4>Internet</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				<div class="hex hex-red">		
+					<div class="inner">
+						<br /><h4>Pol&iacute;tica</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-orange">		
+					<div class="inner">
+						<br /><h4>Construcci&oacute;n</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-black">		
+					<div class="inner">
+						<br /><h4>Hardware</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+
+				<div class="hex hex-green">		
+					<div class="inner">
+						<br /><h4>Agricultura</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-orange">		
+					<div class="inner">
+						<br /><h4>Ciudades</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-yellow">		
+					<div class="inner">
+						<br /><h4>Energ&iacute;a</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-blue hex-gap">		
+					<div class="inner">
+						<br /><h4>Conocimiento</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-orange">		
+					<div class="inner">
+						<br /><h4>Transporte</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-red">		
+					<div class="inner">
+						<br /><h4>Educaci&oacute;n</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+				<div class="hex hex-black">		
+					<div class="inner">
+						<br /><h4>Ciencia</h4>
+					</div>		
+					<a href="#" data-toggle="tooltip" title="En desarrollo"></a>
+					<div class="corner-1"></div>
+					<div class="corner-2"></div>		
+				</div>
+				
+			</div><!-- /col-lg-9 -->
+			<div class="col-lg-1">&nbsp;</div>
+			
+		</div><!-- /container -->
+	</div>
+	
+	<!-- Ideologia -->
+	<section id="ideologia" name="ideologia"></section>
+	<div id="ideologia-div" class="scroll" data-src="ideologia">
+		<div class="container ideologia">
+			<h2>Conoce</h2>
+			<hr><br /><br />
+			
+			<div class="col-lg-4 centered">
+				<i class="glyphicon glyphicon-question-sign big-icon-red"></i><br />
+				<h3>¿Qu&eacute; es RedEC?</h3>
+				Pensamientos que nos mueven.<br /><br />
+				<a href="redec.html" class="btn btn-large btn-danger">Quiero saber m&aacute;s</a>
+			</div>
+			<div class="col-lg-4 centered">
+				<i class="glyphicon glyphicon-hand-up big-icon-yellow"></i><br />
+				<h3>¿C&oacute;mo ocupar el sitio?</h3>
+				Prop&oacute;sito y usabilidad del sitio.<br /><br />
+				<a href="#" data-toggle="tooltip" title="Pronto"  class="btn btn-large btn-warning">Quiero saber m&aacute;s</a>
+			</div>
+			<div class="col-lg-4 centered">
+				<i class="glyphicon glyphicon-book big-icon-green"></i><br />
+				<h3>Historia de RedEC</h3>
+				Conoce nuestro origen y devenir.<br /><br />
+				<a href="#" data-toggle="tooltip" title="Pronto"  class="btn btn-large btn-success">Quiero saber m&aacute;s</a>
+			</div>
+		</div><!-- container -->
+	</div>
+	
+	<!-- La Red -->
+	<section id="lared" name="lared"></section>
+	<div id="lared-div" class="scroll" data-src="lared">
+		<div class="row lared">
+			<div class="col-lg-12">
+				<div id="frases" class="pic-green" class="scroll" data-src="lared">
+					<div class="container">
+						<div class="bs-example">
+							<div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example">
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="item active" data-current="green" data-next="red">
+										<h1>Trabajamos en el estudio, análisis, implementación y difusión de modos productivos y educativos alternativos.</h1>
+									</div>
+									<div class="item" data-current="red" data-next="yellow">
+										<h1>Servir como plataforma que agrupe a todas las iniciativas que tengan o quieran tener el conocimiento necesario para diseñar e implementar medios de producción de manera abierta y colaborativa.</h1>
+									</div>
+									<div class="item" data-current="yellow" data-next="green">
+										<h1>Trabajamos en facilitar y generar herramientas intelectuales y técnicas que nos empoderen como sociedad, incluyendo a organizaciones, movimientos sociales, y colectivos  políticos, que estén dedicados a la lucha por la liberación de la humanidad.</h1>
+									</div>
+								</div>
+								<br /><br /><br />
+							</div><!-- /carousel-example-generic -->
+						</div><!-- bs-example -->
+					</div>
+					<div class="centered">
+						<h1 class="welcome-title">Red de Evoluci&oacute;n Colaborativa</h1>
+						<img src="assets/img/logo-welcome.png" alt="RedEC" /><br /><br />
+						<a href="https://lists.riseup.net/www/info/red-evolucioncolaborativa" rel="external" class="btn btn-large btn-warning">&Uacute;nete a la Red - Lista de Correo</a>
+						&nbsp;&nbsp;
+						<a href="https://www.facebook.com/groups/262430433895355/" rel="external" class="btn btn-large btn-info">&Uacute;nete a la Red - Grupo de Facebook</a>
+						<br /><br /><br /><br />
+						<br /><br /><br /><br />
+					</div>
+				</div><!-- /frases -->
+				</div>
+			</div>
+		</div>
+	
+	<!--<div id="lared-div" class="scroll" data-src="lared">
+		<div class="container">
+			<div class="row lared">
+				<div class="col-lg-12">
+					
+					<hr /><br />
+					<div class="welcome">
+						<br />
+						
+					</div>
+				</div>-->
+				<!--<div class="col-lg-6">
+					<h3>Noticias</h3>
+					<hr /><br />
+					<d
+					iv class="accordion" id="accordion1">
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a href="#"><date>Nov 24, 2013</date> Lorem Ipsum is simply dummy text</a>
+							</div>
+							<div class="accordion-body collapse in">
+								<div class="accordion-inner">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since the 1500s.</p>
+								</div>
+							</div>
+						</div>
+						<br />
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a href="#"><date>Nov 24, 2013</date> Lorem Ipsum is simply dummy text</a>
+							</div>
+							<div class="accordion-body collapse in">
+								<div class="accordion-inner">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since the 1500s.</p>
+								</div>
+							</div>
+						</div>
+						<br />
+					</div>
+				</div>-->
+			</div>
+		</div><!-- /container -->
+	</div>
+	
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="assets/js/html5shiv.js"></script>
+      <script type="text/javascript" src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/classie.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+	<script type="text/javascript" src="assets/js/gnmenu.js"></script>
+	<script type="text/javascript" src="assets/js/redec.js"></script>
+  </body>
+</html>

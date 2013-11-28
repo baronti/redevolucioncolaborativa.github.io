@@ -1,6 +1,0 @@
----
-title: Comparte libros
-layout: project
----
-
-pagina web para compartir libros

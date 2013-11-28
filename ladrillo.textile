@@ -1,7 +1,0 @@
----
-title: Ladrillo
-layout: project
-category: construccion
----
-
-Proyecto de ejemplo II
