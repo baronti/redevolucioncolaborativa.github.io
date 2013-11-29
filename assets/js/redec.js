@@ -31,9 +31,6 @@ $(document).ready(function() {
 		var imgsrc = $(this).attr('data-src');
 		$(this).css('background', 'url(assets/img/proyectos/'+imgsrc+'-small.png) no-repeat center top');
 	});
-	$('.project-line a').click(function(){
-		return false;
-	});
 	$('.project-line a').tooltip({
 		placement: 'top'
 	});
